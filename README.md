@@ -1,4 +1,38 @@
-# SICAR — Reemplazo de catálogo visible
+<p align="center">
+  <a href="https://soul23.mx">
+    <picture>
+      <source
+        media="(prefers-color-scheme: dark)"
+        srcset="https://raw.githubusercontent.com/marcogll/mg_data_storage/refs/heads/main/soul23/logo/soul23_logo_wh.png">
+      <source
+        media="(prefers-color-scheme: light)"
+        srcset="https://raw.githubusercontent.com/marcogll/mg_data_storage/refs/heads/main/soul23/logo/soul23_logo_blk.png">
+      <img
+        src="https://raw.githubusercontent.com/marcogll/mg_data_storage/refs/heads/main/soul23/logo/soul23_logo_blk.png"
+        width="110"
+        alt="Soul:23">
+    </picture>
+  </a>
+</p>
+
+<h1 align="center">SICAR — Catalog Replacement</h1>
+
+<p align="center">
+  Reemplaza el catálogo activo de SICAR por los servicios de un CSV, ocultando los artículos actuales.
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3a3a3a?style=flat-square&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/GNU_Bash-3a3a3a?style=flat-square&logo=gnubash&logoColor=white">
+</p>
+
+---
+
+## Description
+
+Scripts de Python y bash que reemplazan el catálogo activo de SICAR por los servicios cargados desde un CSV, ocultando o desactivando los artículos actuales. Usa modo mantenimiento (sudo de macOS) y no requiere password de MySQL.
+
+Incluye one-liner via curl para ejecutar sin descargar nada, respaldo automatico antes de aplicar cambios, y una carpeta de output con los CSV generados para facturacion web.
 
 Reemplaza el catálogo activo de SICAR por los servicios del CSV, ocultando/desactivando los artículos actuales.
 
